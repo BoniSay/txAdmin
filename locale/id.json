@@ -1,0 +1,365 @@
+{
+    "$meta": {
+        "label": "Indonesia",
+        "humanizer_language": "id"
+    },
+    "restarter": {
+        "start_timeout": "tidak dimulai tepat waktu",
+        "crash_detected": "crash terdeteksi",
+        "hang_detected": "hang terdeteksi",
+        "partial_hang_warn": "Karena hang sebagian, server ini akan di-restart dalam 1 menit. Silakan disconnect sekarang.",
+        "partial_hang_warn_discord": "Karena hang sebagian, **%{servername}** akan di-restart dalam 1 menit.",
+        "schedule_reason": "dijadwalkan pada %{time}",
+        "schedule_warn": "Server ini dijadwalkan untuk di-restart dalam %{smart_count} menit. Silakan disconnect sekarang! |||| Server ini dijadwalkan untuk di-restart dalam %{smart_count} menit.",
+        "schedule_warn_discord": "**%{servername}** dijadwalkan untuk di-restart dalam %{smart_count} menit. |||| **%{servername}** dijadwalkan untuk di-restart dalam %{smart_count} menit."
+    },
+    "ban_messages": {
+        "kick_temporary": "(%{author}) Anda telah diban dari server ini karena \"%{reason}\". Ban Anda akan berakhir pada: %{expiration}.",
+        "kick_permanent": "(%{author}) Anda telah diban secara permanen dari server ini karena \"%{reason}\".",
+        "reject": {
+            "title_permanent": "Anda telah diban secara permanen dari server ini.",
+            "title_temporary": "Anda telah diban sementara dari server ini.",
+            "label_expiration": "Ban Anda akan berakhir pada",
+            "label_date": "Tanggal ban",
+            "label_author": "Pengarang",
+            "label_reason": "Alasan",
+            "label_id": "ID ban",
+            "note_multiple_bans": "Catatan: Anda memiliki lebih dari satu ban aktif di ID Anda.",
+            "note_diff_license": "Catatan: ban di atas diterapkan pada <code>license</code> yang berbeda, yang berarti salah satu ID/HWID Anda cocok dengan salah satu dari ban ini."
+        }
+    },
+    "whitelist_messages": {
+        "admin_only": {
+            "mode_title": "Server ini dalam mode <strong>Pemeliharaan</strong>.",
+            "insufficient_ids": "Anda tidak memiliki ID <code>discord</code> atau <code>fivem</code>, dan Anda perlu memiliki setidaknya salah satunya untuk memvalidasi apakah Anda seorang administrator.",
+            "deny_message": "ID Anda tidak terhubung dengan administrator manapun."
+        },
+        "guild_member": {
+            "mode_title": "Server ini dalam mode <strong>Whitelist Discord</strong>.",
+            "insufficient_ids": "Anda tidak memiliki ID <code>discord</code>, yang diperlukan untuk memvalidasi apakah Anda telah bergabung dengan Discord kami. Silahkan buka Discord Desktop dan coba lagi (versi Web tidak akan berfungsi).",
+            "deny_title": "Anda perlu bergabung dengan Discord kami untuk dapat terhubung.",
+            "deny_message": "Silahkan bergabung dengan %{guildname} dan coba lagi."
+        },
+        "guild_roles": {
+            "mode_title": "Server ini dalam mode <strong>Whitelist berdasarkan grup Discord</strong>.",
+            "insufficient_ids": "Anda tidak memiliki ID <code>discord</code>, yang diperlukan untuk memvalidasi apakah Anda telah bergabung dengan Discord kami. Silahkan buka Discord Desktop dan coba lagi (versi Web tidak akan berfungsi).",
+            "deny_notmember_title": "Anda perlu bergabung dengan Discord kami untuk dapat terhubung.",
+            "deny_notmember_message": "Silahkan bergabung dengan %{guildname}, dapatkan salah satu grup yang diperlukan dan coba lagi.",
+            "deny_noroles_title": "Anda tidak memiliki salah satu grup Discord yang diperlukan untuk terhubung.",
+            "deny_noroles_message": "Untuk terhubung, Anda harus memiliki setidaknya salah satu grup whitelist di server Discord %{guildname}."
+        },
+        "approved_license": {
+            "mode_title": "Server ini dalam mode <strong>Whitelist berdasarkan Lisensi</strong>.",
+            "insufficient_ids": "Anda tidak memiliki ID <code>license</code>, yang berarti server mengaktifkan <code>sv_lan</code>. Jika Anda adalah pemilik server, Anda dapat menonaktifkan mode ini dengan memodifikasi <code>server.cfg</code>.",
+            "deny_title": "Anda belum disetujui untuk masuk ke server ini.",
+            "request_id_label": "ID Permintaan"
+        }
+    },
+    "server_actions": {
+        "restarting": "Server sedang di-restart (%{reason}).",
+        "restarting_discord": "**%{servername}** sedang di-restart (%{reason}).",
+        "stopping": "Server sedang dimatikan (%{reason}).",
+        "stopping_discord": "**%{servername}** sedang dimatikan (%{reason}).",
+        "spawning_discord": "**%{servername}** sedang memulai."
+    },
+    "nui_warning": {
+        "title": "PERINGATAN",
+        "warned_by": "Diperingatkan oleh:",
+        "instruction": "Tekan [SPASI] selama 10 detik untuk menutup peringatan ini."
+    },
+    "nui_menu": {
+        "misc": {
+            "help_message": "Menu txAdmin diaktifkan, ketik /tx untuk membukanya.\nAnda juga dapat mengatur tombol pintasan [Pengaturan permainan > Ikatan Kunci > FiveM > Menu: Buka Halaman Utama].",
+            "menu_not_admin": "ID Anda tidak terdaftar sebagai administrator di txAdmin.\nJika Anda memiliki akses ke web txAdmin, buka halaman Pengelola Admin dan tambahkan ID Anda ke akun Anda.",
+            "menu_auth_failed": "Autentikasi menu gagal dengan alasan: %{reason}",
+            "no_perms": "Anda tidak memiliki izin untuk aktivitas ini.",
+            "unknown_error": "Terjadi kesalahan tak terduga.",
+            "not_enabled": "Menu txAdmin tidak diaktifkan! Anda dapat mengaktifkannya di halaman pengaturan txAdmin web.",
+            "announcement_title": "Pengumuman server oleh %{author}:",
+            "dialog_empty_input": "Anda perlu mengetikkan sesuatu.",
+            "directmessage_title": "DM dari admin %{author}:",
+            "onesync_error": "Tindakan ini memerlukan OneSync diaktifkan."
+        },
+        "frozen": {
+            "froze_player": "Pemain dibekukan!",
+            "unfroze_player": "Pemain tidak dibekukan!",
+            "was_frozen": "Anda telah dibekukan oleh admin!"
+        },
+        "common": {
+            "cancel": "Batalkan",
+            "submit": "Kirim",
+            "error": "Terjadi kesalahan tak terduga.",
+            "copied": "Disalin ke clipboard."
+        }
+    },
+        "page_main": {
+            "tooltips": {
+                "tooltip_1": "Tekan %{key} untuk beralih ke tab berikutnya, dan gunakan panah untuk menavigasi menu.",
+                "tooltip_2": "Beberapa opsi menu dapat dipilih dengan panah kiri/kanan."
+            },
+            "player_mode": {
+                "title": "Mode Pemain",
+                "noclip": {
+                    "title": "NoClip",
+                    "label": "Terbang di peta",
+                    "success": "NoClip diaktifkan."
+                },
+                "godmode": {
+                    "title": "Tuhan",
+                    "label": "Tidak bisa mati",
+                    "success": "Mode Tuhan diaktifkan."
+                },
+                "superjump": {
+                    "title": "Super Lompat",
+                    "label": "Melompat sangat tinggi dan berlari sangat cepat",
+                    "success": "Super Lompat diaktifkan."
+                },
+                "normal": {
+                    "title": "Normal",
+                    "label": "Mode standar",
+                    "success": "Pemain kembali ke mode normal."
+                }
+            },
+            "teleport": {
+                "title": "Teleport",
+                "generic_success": "Masuk ke lubang hitam!",
+                "waypoint": {
+                    "title": "Penanda",
+                    "label": "Pergi ke posisi di peta",
+                    "error": "Anda tidak memiliki posisi yang ditandai di peta."
+                },
+                "coords": {
+                    "title": "Koordinat",
+                    "label": "Pergi ke koordinat",
+                    "dialog_title": "Teleport",
+                    "dialog_desc": "Masukkan koordinat dalam format x, y, z untuk dipindahkan.",
+                    "dialog_error": "Koordinat tidak valid. Mereka perlu dalam format: 111, 222, 33"
+                },
+                "back": {
+                    "title": "Kembali",
+                    "label": "Kembali ke posisi terakhir",
+                    "error": "Anda tidak memiliki posisi sebelumnya yang disimpan."
+                },
+                "copy": {
+                    "title": "Salin Koordinat",
+                    "label": "Salin koordinat ke clipboard"
+                }
+            },
+            "vehicle": {
+                "title": "Kendaraan",
+                "not_in_veh_error": "Anda tidak berada di dalam kendaraan",
+                "spawn": {
+                    "title": "Buat",
+                    "label": "Buat kendaraan dengan nama",
+                    "dialog_title": "Buat kendaraan",
+                    "dialog_desc": "Masukkan nama model kendaraan yang ingin Anda buat.",
+                    "dialog_success": "Kendaraan dibuat!",
+                    "dialog_error": "Tidak ada kendaraan dengan model '%{modelName}'!",
+                    "dialog_info": "Membuat %{modelName}."
+                },
+                "fix": {
+                    "title": "Perbaiki",
+                    "label": "Perbaiki kendaraan saat ini",
+                    "success": "Kendaraan diperbaiki!"
+                },
+                "delete": {
+                    "title": "Hapus",
+                    "label": "Hapus kendaraan saat ini",
+                    "success": "Kendaraan dihapus!"
+                },
+                "boost": {
+                    "title": "Nitro",
+                    "label": "Tingkatkan karakteristik kendaraan untuk mencapai kesenangan maksimum (dan mungkin kecepatan)",
+                    "success": "Nitro ditambahkan!",
+                    "already_boosted": "Mobil ini sudah memiliki nitro.",
+                    "unsupported_class": "Kelas kendaraan ini tidak didukung.",
+                    "redm_not_mounted": "Anda hanya dapat menggunakan 'nitro' jika Anda sedang menaiki kuda."
+                }
+            },
+            "heal": {
+                "title": "Sembuhkan",
+                "myself": {
+                    "title": "Diri Sendiri",
+                    "label": "Memulihkan kesehatan Anda.",
+                    "success_0": "Karakter disembuhkan!",
+                    "success_1": "Anda pasti merasa lebih baik!",
+                    "success_2": "Kesehatan dipulihkan!",
+                    "success_3": "Sakit sudah sembuh!"
+                },
+                "everyone": {
+                    "title": "Semua Orang",
+                    "label": "Menyembuhkan dan menghidupkan kembali semua pemain",
+                    "success": "Semua pemain telah disembuhkan."
+                }
+            },
+            "announcement": {
+                "title": "Kirim Pengumuman Global",
+                "label": "Kirim pesan kepada semua pemain online",
+                "dialog_desc": "Masukkan pesan yang akan dikirim ke semua pemain.",
+                "dialog_placeholder": "Pengumuman Anda...",
+                "dialog_success": "Pengumuman telah dikirim."
+            },
+            "clear_area": {
+                "title": "Reset Area",
+                "label": "Hapus entitas permainan yang dekat dengan pemain.",
+                "dialog_desc": "Masukkan jarak yang ingin Anda hapus entitas (0-300). Tindakan ini tidak akan menghapus entitas yang dibuat di server.",
+                "dialog_success": "Menghapus entitas dalam %{radius}m",
+                "dialog_error": "Jarak tidak valid."
+            },
+            "player_ids": {
+                "title": "Tampilkan/Sembunyikan ID",
+                "label": "Aktifkan/nonaktifkan tampilan ID (dan data lain) di atas kepala pemain yang dekat",
+                "alert_show": "Menampilkan NetIDs terdekat.",
+                "alert_hide": "Menyembunyikan NetIDs terdekat."
+            }
+        },
+        "page_players": {
+            "misc": {
+                "online_players": "Pemain Online",
+                "players": "Pemain",
+                "search": "Cari",
+                "zero_players": "Tidak ada pemain ditemukan."
+            },
+            "filter": {
+                "label": "Filter berdasarkan",
+                "no_filter": "Tanpa Filter",
+                "is_admin": "Dia Admin",
+                "is_injured": "Dia Terluka / Mati",
+                "in_vehicle": "Dia di Kendaraan"
+            },
+            "sort": {
+                "label": "Urutkan berdasarkan",
+                "distance": "Jarak",
+                "id": "ID",
+                "joined_first": "Terhubung Pertama",
+                "joined_last": "Terhubung Terakhir",
+                "closest": "Paling Dekat",
+                "farthest": "Paling Jauh"
+            },
+            "card": {
+                "health": "Kesehatan di %{percentHealth}%"
+            }
+        },
+        "player_modal": {
+            "misc": {
+                "error": "Kesalahan saat mengambil data pemain:",
+                "target_not_found": "Tidak dapat menemukan pemain online dengan ID atau nama pengguna %{target}"
+            },
+            "tabs": {
+                "actions": "Tindakan",
+                "info": "Informasi",
+                "ids": "IDs",
+                "history": "Riwayat",
+                "ban": "Ban"
+            },
+            "actions": {
+                "title": "Tindakan Pemain",
+                "command_sent": "Perintah telah dikirim!",
+                "moderation": {
+                    "title": "Moderasi",
+                    "options": {
+                        "dm": "DM",
+                        "warn": "Peringatan",
+                        "kick": "Usir",
+                        "set_admin": "Berikan Admin"
+                    },
+                    "dm_dialog": {
+                        "title": "Pesan Pribadi untuk",
+                        "description": "Apa yang ingin Anda kirim ke pemain?",
+                        "placeholder": "Pesan apa pun...",
+                        "success": "Pesan pribadi Anda telah dikirim!"
+                    },
+                    "warn_dialog": {
+                        "title": "Peringatan",
+                        "description": "Apa alasan untuk memperingatkan pemain ini?",
+                        "placeholder": "Alasan...",
+                        "success": "Pemain telah diperingatkan!"
+                    },
+                   
+                    
+                        "kick_dialog": {
+                            "title": "Usir (keluar)",
+                            "description": "Apa alasan untuk mengusir pemain ini?",
+                            "placeholder": "Alasan...",
+                            "success": "Pemain telah diusir!"
+                        },
+                        "interaction": {
+                            "title": "Interaksi",
+                            "options": {
+                                "heal": "Sembuhkan",
+                                "go_to": "Pergi ke",
+                                "bring": "Bawa",
+                                "spectate": "Amati",
+                                "toggle_freeze": "Bekukan"
+                            },
+                            "notifications": {
+                                "heal_player": "Sedang menyembuhkan pemain",
+                                "tp_player": "Teleportasi ke pemain",
+                                "bring_player": "Membawa pemain",
+                                "spectate_failed": "Kesalahan saat menetapkan target! Membatalkan mode amati.",
+                                "spectate_yourself": "Anda tidak dapat mengamati diri sendiri.",
+                                "freeze_yourself": "Anda tidak dapat membekukan diri sendiri.",
+                                "spectate_cycle_failed": "Tidak ada lagi pemain untuk diamati."
+                            }
+                        },
+                        "troll": {
+                            "title": "Troll",
+                            "options": {
+                                "drunk": "Membuat Bertenang",
+                                "fire": "Menyalakan Api",
+                                "wild_attack": "Serangan Gila"
+                            }
+                        },
+                        "info": {
+                            "title": "Informasi Pemain",
+                            "session_time": "Waktu Sesi",
+                            "play_time": "Waktu di server",
+                            "joined": "Koneksi Pertama",
+                            "whitelisted_label": "Whitelist ditambahkan",
+                            "whitelisted_notyet": "belum",
+                            "btn_wl_add": "TAMBAH WL",
+                            "btn_wl_remove": "HAPUS WL",
+                            "btn_wl_success": "Status whitelist diubah.",
+                            "log_label": "Log",
+                            "log_empty": "Tidak ada larangan atau peringatan ditemukan.",
+                            "log_ban_count": "%{smart_count} larangan |||| %{smart_count} larangan",
+                            "log_warn_count": "%{smart_count} peringatan |||| %{smart_count} peringatan",
+                            "log_btn": "DETAILS",
+                            "notes_changed": "Catatan pemain telah diubah.",
+                            "notes_placeholder": "Catatan tentang pemain ini..."
+                        },
+                        "history": {
+                            "title": "Riwayat Terkait",
+                            "btn_revoke": "CABUT",
+                            "revoked_success": "Tindakan dicabut!",
+                            "banned_by": "DIBUTUHKAN oleh %{author}",
+                            "warned_by": "DIHATI oleh %{author}",
+                            "revoked_by": "DICABUT oleh %{author}.",
+                            "expired_at": "Kedaluwarsa pada %{date}.",
+                            "expires_at": "Berlaku hingga %{date}."
+                        },
+                        "ban": {
+                            "title": "Ban Pemain",
+                            "reason_placeholder": "Alasan",
+                            "duration_placeholder": "Durasi",
+                            "hours": "jam",
+                            "days": "hari",
+                            "weeks": "minggu",
+                            "months": "bulan",
+                            "permanent": "Permanen",
+                            "custom": "Kustom",
+                            "helper_text": "Silakan pilih durasi",
+                            "submit": "Terapkan larangan",
+                            "reason_required": "Kolom alasan wajib diisi.",
+                            "success": "Pemain telah diban!"
+                        },
+                        "ids": {
+                            "current_ids": "ID saat ini",
+                            "previous_ids": "ID yang digunakan sebelumnya",
+                            "all_hwids": "Semua ID Hardware"
+                        }
+                    }
+                }
+            }
+   
+        }
